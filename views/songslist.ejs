@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="app.css">
+<h1> HERE ARE ALL THE SONGS FOR THIS ARTIST!</h1>
+
+<% songs["results"].forEach(function(song) { %>
+  <li><%= song["trackName"] %></li>
+<% }) %>
